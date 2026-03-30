@@ -323,33 +323,6 @@ def authenticate_face(image_path, user_data_file, tolerance=0.05):
 
         cv2.line(img_result, point1, point2, color, 2)
 
-    # Добавляем текст с результатом
-    # h, w = img_result.shape[:2]
-
-    # Фон для текста
-    # overlay = img_result.copy()
-    # cv2.rectangle(overlay, (10, 10), (w - 10, 80), (0, 0, 0), -1)
-    # img_result = cv2.addWeighted(overlay, 0.7, img_result, 0.3, 0)
-
-    # Результат аутентификации
-    # if authenticated:
-    #     status_text = "УСПЕШНО"
-    #     status_color = (0, 255, 0)
-    # else:
-    #     status_text = "НЕУСПЕШНО"
-    #     status_color = (0, 0, 255)
-    #
-    # # Добавляем текст
-    # cv2.putText(img_result, f"Аутентификация: {status_text}",
-    #             (20, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.8, status_color, 2)
-    # cv2.putText(img_result, f"Максимальная ошибка: {max_error:.4f}",
-    #             (20, 70), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
-    # cv2.putText(img_result, f"Средняя ошибка: {avg_error:.4f}",
-    #             (20, 100), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
-    # cv2.putText(img_result, f"Порог: {tolerance:.4f}",
-    #             (20, 130), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
-    # cv2.putText(img_result, f"Схожесть: {similarity * 100:.1f}%",
-    #             (20, 160), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
     # Результат аутентификации
     print("\n" + "=" * 60)
     print("РЕЗУЛЬТАТ АУТЕНТИФИКАЦИИ")
