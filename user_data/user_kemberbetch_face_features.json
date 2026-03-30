@@ -1,0 +1,1082 @@
+{
+  "user_id": "kemberbetch",
+  "timestamp": "2026-03-30T12:16:52.529785",
+  "num_edges": 100,
+  "reference_edge": "39_4",
+  "edges": {
+    "44_45": {
+      "edge_id": 0,
+      "point1": 44,
+      "point2": 45,
+      "absolute_length_px": 7.682113870816837,
+      "relative_length": 0.1002125343709144,
+      "is_reference": false
+    },
+    "13_54": {
+      "edge_id": 1,
+      "point1": 54,
+      "point2": 13,
+      "absolute_length_px": 36.09438248473733,
+      "relative_length": 0.47084820743018546,
+      "is_reference": false
+    },
+    "8_9": {
+      "edge_id": 2,
+      "point1": 8,
+      "point2": 9,
+      "absolute_length_px": 17.547317046388425,
+      "relative_length": 0.228903286543129,
+      "is_reference": false
+    },
+    "40_41": {
+      "edge_id": 3,
+      "point1": 40,
+      "point2": 41,
+      "absolute_length_px": 9.313352292467648,
+      "relative_length": 0.12149190345418684,
+      "is_reference": false
+    },
+    "48_59": {
+      "edge_id": 4,
+      "point1": 59,
+      "point2": 48,
+      "absolute_length_px": 12.272837138313946,
+      "relative_length": 0.1600981362986679,
+      "is_reference": false
+    },
+    "30_39": {
+      "edge_id": 5,
+      "point1": 30,
+      "point2": 39,
+      "absolute_length_px": 38.27783910683079,
+      "relative_length": 0.49933121685551635,
+      "is_reference": false
+    },
+    "18_19": {
+      "edge_id": 6,
+      "point1": 18,
+      "point2": 19,
+      "absolute_length_px": 12.38606690235528,
+      "relative_length": 0.16157520912154133,
+      "is_reference": false
+    },
+    "0_36": {
+      "edge_id": 7,
+      "point1": 36,
+      "point2": 0,
+      "absolute_length_px": 23.73971319934844,
+      "relative_length": 0.30968257760183343,
+      "is_reference": false
+    },
+    "18_37": {
+      "edge_id": 8,
+      "point1": 18,
+      "point2": 37,
+      "absolute_length_px": 20.413029081131015,
+      "relative_length": 0.26628626089212143,
+      "is_reference": false
+    },
+    "14_15": {
+      "edge_id": 9,
+      "point1": 14,
+      "point2": 15,
+      "absolute_length_px": 20.521732866513297,
+      "relative_length": 0.26770429270108137,
+      "is_reference": false
+    },
+    "27_47": {
+      "edge_id": 10,
+      "point1": 47,
+      "point2": 27,
+      "absolute_length_px": 27.72170028245406,
+      "relative_length": 0.36162726680335244,
+      "is_reference": false
+    },
+    "9_10": {
+      "edge_id": 11,
+      "point1": 9,
+      "point2": 10,
+      "absolute_length_px": 17.738435277184003,
+      "relative_length": 0.23139640791500393,
+      "is_reference": false
+    },
+    "13_46": {
+      "edge_id": 12,
+      "point1": 46,
+      "point2": 13,
+      "absolute_length_px": 58.07392272269505,
+      "relative_length": 0.7575694756374517,
+      "is_reference": false
+    },
+    "15_16": {
+      "edge_id": 13,
+      "point1": 15,
+      "point2": 16,
+      "absolute_length_px": 20.79661546535985,
+      "relative_length": 0.2712901132640285,
+      "is_reference": false
+    },
+    "42_43": {
+      "edge_id": 14,
+      "point1": 42,
+      "point2": 43,
+      "absolute_length_px": 10.576016376786274,
+      "relative_length": 0.13796325106456078,
+      "is_reference": false
+    },
+    "2_36": {
+      "edge_id": 15,
+      "point1": 36,
+      "point2": 2,
+      "absolute_length_px": 37.82066288023972,
+      "relative_length": 0.49336739113108063,
+      "is_reference": false
+    },
+    "25_45": {
+      "edge_id": 16,
+      "point1": 25,
+      "point2": 45,
+      "absolute_length_px": 17.43293656105298,
+      "relative_length": 0.2274112026570018,
+      "is_reference": false
+    },
+    "27_40": {
+      "edge_id": 17,
+      "point1": 40,
+      "point2": 27,
+      "absolute_length_px": 26.541336050056668,
+      "relative_length": 0.34622951389335244,
+      "is_reference": false
+    },
+    "38_39": {
+      "edge_id": 18,
+      "point1": 38,
+      "point2": 39,
+      "absolute_length_px": 10.757628324670213,
+      "relative_length": 0.14033236376915453,
+      "is_reference": false
+    },
+    "48_49": {
+      "edge_id": 19,
+      "point1": 48,
+      "point2": 49,
+      "absolute_length_px": 9.688493059052192,
+      "relative_length": 0.12638558344871254,
+      "is_reference": false
+    },
+    "27_42": {
+      "edge_id": 20,
+      "point1": 42,
+      "point2": 27,
+      "absolute_length_px": 18.694459300000833,
+      "relative_length": 0.2438676615122595,
+      "is_reference": false
+    },
+    "0_17": {
+      "edge_id": 21,
+      "point1": 17,
+      "point2": 0,
+      "absolute_length_px": 8.125484315543304,
+      "relative_length": 0.10599626482302163,
+      "is_reference": false
+    },
+    "16_45": {
+      "edge_id": 22,
+      "point1": 45,
+      "point2": 16,
+      "absolute_length_px": 25.470327827825795,
+      "relative_length": 0.3322583010101944,
+      "is_reference": false
+    },
+    "12_13": {
+      "edge_id": 23,
+      "point1": 12,
+      "point2": 13,
+      "absolute_length_px": 19.84291497909114,
+      "relative_length": 0.2588491700071436,
+      "is_reference": false
+    },
+    "22_23": {
+      "edge_id": 24,
+      "point1": 22,
+      "point2": 23,
+      "absolute_length_px": 13.630789516375248,
+      "relative_length": 0.17781251174908846,
+      "is_reference": false
+    },
+    "49_50": {
+      "edge_id": 25,
+      "point1": 49,
+      "point2": 50,
+      "absolute_length_px": 9.100475928228269,
+      "relative_length": 0.11871494904725799,
+      "is_reference": false
+    },
+    "22_27": {
+      "edge_id": 26,
+      "point1": 27,
+      "point2": 22,
+      "absolute_length_px": 14.99694025304087,
+      "relative_length": 0.1956338341033478,
+      "is_reference": false
+    },
+    "13_14": {
+      "edge_id": 27,
+      "point1": 13,
+      "point2": 14,
+      "absolute_length_px": 19.945330899365185,
+      "relative_length": 0.2601851771404901,
+      "is_reference": false
+    },
+    "45_46": {
+      "edge_id": 28,
+      "point1": 45,
+      "point2": 46,
+      "absolute_length_px": 7.507820297613892,
+      "relative_length": 0.09793888925331445,
+      "is_reference": false
+    },
+    "55_56": {
+      "edge_id": 29,
+      "point1": 55,
+      "point2": 56,
+      "absolute_length_px": 9.84448136609979,
+      "relative_length": 0.128420437896894,
+      "is_reference": false
+    },
+    "50_51": {
+      "edge_id": 30,
+      "point1": 50,
+      "point2": 51,
+      "absolute_length_px": 7.912551466440084,
+      "relative_length": 0.10321857357575766,
+      "is_reference": false
+    },
+    "12_54": {
+      "edge_id": 31,
+      "point1": 54,
+      "point2": 12,
+      "absolute_length_px": 28.527814647847187,
+      "relative_length": 0.3721429614295058,
+      "is_reference": false
+    },
+    "51_52": {
+      "edge_id": 32,
+      "point1": 51,
+      "point2": 52,
+      "absolute_length_px": 8.145051214660652,
+      "relative_length": 0.10625151338914593,
+      "is_reference": false
+    },
+    "46_47": {
+      "edge_id": 33,
+      "point1": 46,
+      "point2": 47,
+      "absolute_length_px": 8.982008332939289,
+      "relative_length": 0.11716954915285703,
+      "is_reference": false
+    },
+    "23_24": {
+      "edge_id": 34,
+      "point1": 23,
+      "point2": 24,
+      "absolute_length_px": 13.159913034086799,
+      "relative_length": 0.17166996733236936,
+      "is_reference": false
+    },
+    "10_33": {
+      "edge_id": 35,
+      "point1": 33,
+      "point2": 10,
+      "absolute_length_px": 65.3990331591655,
+      "relative_length": 0.8531249299993232,
+      "is_reference": false
+    },
+    "19_20": {
+      "edge_id": 36,
+      "point1": 19,
+      "point2": 20,
+      "absolute_length_px": 12.875560440882396,
+      "relative_length": 0.1679606114832969,
+      "is_reference": false
+    },
+    "24_25": {
+      "edge_id": 37,
+      "point1": 24,
+      "point2": 25,
+      "absolute_length_px": 13.738867969333484,
+      "relative_length": 0.17922238614876082,
+      "is_reference": false
+    },
+    "56_57": {
+      "edge_id": 38,
+      "point1": 56,
+      "point2": 57,
+      "absolute_length_px": 8.287081993637347,
+      "relative_length": 0.10810429304840088,
+      "is_reference": false
+    },
+    "19_38": {
+      "edge_id": 39,
+      "point1": 19,
+      "point2": 38,
+      "absolute_length_px": 18.92464696085271,
+      "relative_length": 0.24687044033886732,
+      "is_reference": false
+    },
+    "20_21": {
+      "edge_id": 40,
+      "point1": 20,
+      "point2": 21,
+      "absolute_length_px": 13.054690647131999,
+      "relative_length": 0.17029735007537256,
+      "is_reference": false
+    },
+    "52_53": {
+      "edge_id": 41,
+      "point1": 52,
+      "point2": 53,
+      "absolute_length_px": 9.18942861548671,
+      "relative_length": 0.11987532942942536,
+      "is_reference": false
+    },
+    "57_58": {
+      "edge_id": 42,
+      "point1": 57,
+      "point2": 58,
+      "absolute_length_px": 7.975358047536525,
+      "relative_length": 0.10403788018493937,
+      "is_reference": false
+    },
+    "23_44": {
+      "edge_id": 43,
+      "point1": 23,
+      "point2": 44,
+      "absolute_length_px": 16.260518030172072,
+      "relative_length": 0.21211710076021395,
+      "is_reference": false
+    },
+    "53_54": {
+      "edge_id": 44,
+      "point1": 53,
+      "point2": 54,
+      "absolute_length_px": 9.62400219149013,
+      "relative_length": 0.12554430546314083,
+      "is_reference": false
+    },
+    "15_46": {
+      "edge_id": 45,
+      "point1": 46,
+      "point2": 15,
+      "absolute_length_px": 33.30128609909805,
+      "relative_length": 0.43441249816395566,
+      "is_reference": false
+    },
+    "25_26": {
+      "edge_id": 46,
+      "point1": 25,
+      "point2": 26,
+      "absolute_length_px": 12.097845808298691,
+      "relative_length": 0.1578153890016793,
+      "is_reference": false
+    },
+    "27_39": {
+      "edge_id": 47,
+      "point1": 39,
+      "point2": 27,
+      "absolute_length_px": 17.90484116541937,
+      "relative_length": 0.23356715884043067,
+      "is_reference": false
+    },
+    "31_32": {
+      "edge_id": 48,
+      "point1": 31,
+      "point2": 32,
+      "absolute_length_px": 7.974536518448596,
+      "relative_length": 0.1040271634065441,
+      "is_reference": false
+    },
+    "17_18": {
+      "edge_id": 49,
+      "point1": 17,
+      "point2": 18,
+      "absolute_length_px": 11.90561592349304,
+      "relative_length": 0.15530776619601072,
+      "is_reference": false
+    },
+    "27_28": {
+      "edge_id": 50,
+      "point1": 27,
+      "point2": 28,
+      "absolute_length_px": 12.102452430616651,
+      "relative_length": 0.15787548200539356,
+      "is_reference": false
+    },
+    "8_57": {
+      "edge_id": 51,
+      "point1": 57,
+      "point2": 8,
+      "absolute_length_px": 38.47925341802191,
+      "relative_length": 0.5019586497369413,
+      "is_reference": false
+    },
+    "5_48": {
+      "edge_id": 52,
+      "point1": 48,
+      "point2": 5,
+      "absolute_length_px": 26.40078268069505,
+      "relative_length": 0.344396006919236,
+      "is_reference": false
+    },
+    "54_55": {
+      "edge_id": 53,
+      "point1": 54,
+      "point2": 55,
+      "absolute_length_px": 12.882444929295076,
+      "relative_length": 0.16805041906012844,
+      "is_reference": false
+    },
+    "64_65": {
+      "edge_id": 54,
+      "point1": 64,
+      "point2": 65,
+      "absolute_length_px": 14.293196377796392,
+      "relative_length": 0.18645355397834634,
+      "is_reference": false
+    },
+    "30_42": {
+      "edge_id": 55,
+      "point1": 30,
+      "point2": 42,
+      "absolute_length_px": 39.34591873223311,
+      "relative_length": 0.5132642264374379,
+      "is_reference": false
+    },
+    "13_22": {
+      "edge_id": 56,
+      "point1": 22,
+      "point2": 13,
+      "absolute_length_px": 82.82061790186452,
+      "relative_length": 1.0803880491332092,
+      "is_reference": false
+    },
+    "5_6": {
+      "edge_id": 57,
+      "point1": 5,
+      "point2": 6,
+      "absolute_length_px": 20.05077906955909,
+      "relative_length": 0.26156073972099936,
+      "is_reference": false
+    },
+    "60_61": {
+      "edge_id": 58,
+      "point1": 60,
+      "point2": 61,
+      "absolute_length_px": 14.50949984076911,
+      "relative_length": 0.18927521460225954,
+      "is_reference": false
+    },
+    "1_2": {
+      "edge_id": 59,
+      "point1": 1,
+      "point2": 2,
+      "absolute_length_px": 20.096382325393968,
+      "relative_length": 0.2621556303877648,
+      "is_reference": false
+    },
+    "21_27": {
+      "edge_id": 60,
+      "point1": 27,
+      "point2": 21,
+      "absolute_length_px": 16.950874153372617,
+      "relative_length": 0.2211227387770128,
+      "is_reference": false
+    },
+    "28_29": {
+      "edge_id": 61,
+      "point1": 28,
+      "point2": 29,
+      "absolute_length_px": 12.304062138146211,
+      "relative_length": 0.1605054638157475,
+      "is_reference": false
+    },
+    "42_47": {
+      "edge_id": 62,
+      "point1": 47,
+      "point2": 42,
+      "absolute_length_px": 9.02729867118605,
+      "relative_length": 0.11776035783579854,
+      "is_reference": false
+    },
+    "10_57": {
+      "edge_id": 63,
+      "point1": 57,
+      "point2": 10,
+      "absolute_length_px": 39.95619391634208,
+      "relative_length": 0.5212252152865571,
+      "is_reference": false
+    },
+    "4_39": {
+      "edge_id": 64,
+      "point1": 39,
+      "point2": 4,
+      "absolute_length_px": 76.65821365602032,
+      "relative_length": 1.0,
+      "is_reference": true
+    },
+    "11_54": {
+      "edge_id": 65,
+      "point1": 54,
+      "point2": 11,
+      "absolute_length_px": 30.481396864046328,
+      "relative_length": 0.3976272784130091,
+      "is_reference": false
+    },
+    "60_67": {
+      "edge_id": 66,
+      "point1": 67,
+      "point2": 60,
+      "absolute_length_px": 14.809931685443594,
+      "relative_length": 0.19319432294494254,
+      "is_reference": false
+    },
+    "29_30": {
+      "edge_id": 67,
+      "point1": 29,
+      "point2": 30,
+      "absolute_length_px": 12.776883407774267,
+      "relative_length": 0.16667337782101893,
+      "is_reference": false
+    },
+    "61_62": {
+      "edge_id": 68,
+      "point1": 61,
+      "point2": 62,
+      "absolute_length_px": 7.700488906093932,
+      "relative_length": 0.10045223517270387,
+      "is_reference": false
+    },
+    "24_43": {
+      "edge_id": 69,
+      "point1": 24,
+      "point2": 43,
+      "absolute_length_px": 16.97953233359933,
+      "relative_length": 0.22149658234653957,
+      "is_reference": false
+    },
+    "7_50": {
+      "edge_id": 70,
+      "point1": 50,
+      "point2": 7,
+      "absolute_length_px": 53.167993460605956,
+      "relative_length": 0.693572037814247,
+      "is_reference": false
+    },
+    "2_3": {
+      "edge_id": 71,
+      "point1": 2,
+      "point2": 3,
+      "absolute_length_px": 19.726716913643408,
+      "relative_length": 0.257333375940129,
+      "is_reference": false
+    },
+    "20_39": {
+      "edge_id": 72,
+      "point1": 20,
+      "point2": 39,
+      "absolute_length_px": 20.051189346738383,
+      "relative_length": 0.2615660917525655,
+      "is_reference": false
+    },
+    "62_63": {
+      "edge_id": 73,
+      "point1": 62,
+      "point2": 63,
+      "absolute_length_px": 8.032281699179778,
+      "relative_length": 0.10478044447033584,
+      "is_reference": false
+    },
+    "3_4": {
+      "edge_id": 74,
+      "point1": 3,
+      "point2": 4,
+      "absolute_length_px": 19.907782581907927,
+      "relative_length": 0.25969536247267455,
+      "is_reference": false
+    },
+    "58_59": {
+      "edge_id": 75,
+      "point1": 58,
+      "point2": 59,
+      "absolute_length_px": 10.199992093252716,
+      "relative_length": 0.13305804566516485,
+      "is_reference": false
+    },
+    "1_36": {
+      "edge_id": 76,
+      "point1": 36,
+      "point2": 1,
+      "absolute_length_px": 25.57912497537489,
+      "relative_length": 0.3336775507208293,
+      "is_reference": false
+    },
+    "36_37": {
+      "edge_id": 77,
+      "point1": 36,
+      "point2": 37,
+      "absolute_length_px": 7.74367874693523,
+      "relative_length": 0.101015643042278,
+      "is_reference": false
+    },
+    "14_46": {
+      "edge_id": 78,
+      "point1": 46,
+      "point2": 14,
+      "absolute_length_px": 43.62026142769158,
+      "relative_length": 0.5690226702049674,
+      "is_reference": false
+    },
+    "63_64": {
+      "edge_id": 79,
+      "point1": 63,
+      "point2": 64,
+      "absolute_length_px": 14.362289029679154,
+      "relative_length": 0.18735486185636177,
+      "is_reference": false
+    },
+    "36_41": {
+      "edge_id": 80,
+      "point1": 41,
+      "point2": 36,
+      "absolute_length_px": 7.793415584890775,
+      "relative_length": 0.10166445594285933,
+      "is_reference": false
+    },
+    "32_33": {
+      "edge_id": 81,
+      "point1": 32,
+      "point2": 33,
+      "absolute_length_px": 8.609892135474523,
+      "relative_length": 0.11231532441009794,
+      "is_reference": false
+    },
+    "4_5": {
+      "edge_id": 82,
+      "point1": 4,
+      "point2": 5,
+      "absolute_length_px": 20.347808518351936,
+      "relative_length": 0.26543546409333696,
+      "is_reference": false
+    },
+    "3_36": {
+      "edge_id": 83,
+      "point1": 36,
+      "point2": 3,
+      "absolute_length_px": 54.547621681331016,
+      "relative_length": 0.7115691728233631,
+      "is_reference": false
+    },
+    "15_45": {
+      "edge_id": 84,
+      "point1": 45,
+      "point2": 15,
+      "absolute_length_px": 29.675482240149393,
+      "relative_length": 0.3871141893980051,
+      "is_reference": false
+    },
+    "0_1": {
+      "edge_id": 85,
+      "point1": 0,
+      "point2": 1,
+      "absolute_length_px": 20.000226307596503,
+      "relative_length": 0.2609012831598352,
+      "is_reference": false
+    },
+    "10_11": {
+      "edge_id": 86,
+      "point1": 10,
+      "point2": 11,
+      "absolute_length_px": 18.820404610798388,
+      "relative_length": 0.24551060758145302,
+      "is_reference": false
+    },
+    "65_66": {
+      "edge_id": 87,
+      "point1": 65,
+      "point2": 66,
+      "absolute_length_px": 8.206763135488329,
+      "relative_length": 0.10705654024647121,
+      "is_reference": false
+    },
+    "4_48": {
+      "edge_id": 88,
+      "point1": 48,
+      "point2": 4,
+      "absolute_length_px": 26.12928165651429,
+      "relative_length": 0.3408542987156111,
+      "is_reference": false
+    },
+    "37_38": {
+      "edge_id": 89,
+      "point1": 37,
+      "point2": 38,
+      "absolute_length_px": 9.051671497875073,
+      "relative_length": 0.11807829932603972,
+      "is_reference": false
+    },
+    "3_38": {
+      "edge_id": 90,
+      "point1": 38,
+      "point2": 3,
+      "absolute_length_px": 64.01914014905904,
+      "relative_length": 0.8351243408348236,
+      "is_reference": false
+    },
+    "30_32": {
+      "edge_id": 91,
+      "point1": 30,
+      "point2": 32,
+      "absolute_length_px": 12.941232213198136,
+      "relative_length": 0.16881729427283362,
+      "is_reference": false
+    },
+    "6_7": {
+      "edge_id": 92,
+      "point1": 6,
+      "point2": 7,
+      "absolute_length_px": 18.6086814801039,
+      "relative_length": 0.24274869700987972,
+      "is_reference": false
+    },
+    "6_31": {
+      "edge_id": 93,
+      "point1": 31,
+      "point2": 6,
+      "absolute_length_px": 63.35684722433707,
+      "relative_length": 0.8264847849002984,
+      "is_reference": false
+    },
+    "43_44": {
+      "edge_id": 94,
+      "point1": 43,
+      "point2": 44,
+      "absolute_length_px": 8.734009721077195,
+      "relative_length": 0.11393442795664822,
+      "is_reference": false
+    },
+    "39_40": {
+      "edge_id": 95,
+      "point1": 39,
+      "point2": 40,
+      "absolute_length_px": 8.637071153776493,
+      "relative_length": 0.1126698724357528,
+      "is_reference": false
+    },
+    "11_12": {
+      "edge_id": 96,
+      "point1": 11,
+      "point2": 12,
+      "absolute_length_px": 20.035437446122558,
+      "relative_length": 0.26136060952353124,
+      "is_reference": false
+    },
+    "66_67": {
+      "edge_id": 97,
+      "point1": 66,
+      "point2": 67,
+      "absolute_length_px": 7.741340419345814,
+      "relative_length": 0.10098513975400797,
+      "is_reference": false
+    },
+    "9_57": {
+      "edge_id": 98,
+      "point1": 57,
+      "point2": 9,
+      "absolute_length_px": 39.29844946352036,
+      "relative_length": 0.5126449937883998,
+      "is_reference": false
+    },
+    "7_8": {
+      "edge_id": 99,
+      "point1": 7,
+      "point2": 8,
+      "absolute_length_px": 17.759356868540987,
+      "relative_length": 0.23166932832834494,
+      "is_reference": false
+    }
+  },
+  "landmarks": [
+    [
+      598.8892822265625,
+      151.74757385253906
+    ],
+    [
+      601.5838012695312,
+      171.56546020507812
+    ],
+    [
+      606.8444213867188,
+      190.96109008789062
+    ],
+    [
+      612.0562133789062,
+      209.98687744140625
+    ],
+    [
+      619.311279296875,
+      228.5255889892578
+    ],
+    [
+      629.879638671875,
+      245.91360473632812
+    ],
+    [
+      643.236572265625,
+      260.86773681640625
+    ],
+    [
+      658.602294921875,
+      271.3642883300781
+    ],
+    [
+      676.2899780273438,
+      272.9582214355469
+    ],
+    [
+      693.166748046875,
+      268.15374755859375
+    ],
+    [
+      706.2708129882812,
+      256.19818115234375
+    ],
+    [
+      716.7979125976562,
+      240.5972900390625
+    ],
+    [
+      724.9978637695312,
+      222.31671142578125
+    ],
+    [
+      729.962158203125,
+      203.1048126220703
+    ],
+    [
+      732.0617065429688,
+      183.27029418945312
+    ],
+    [
+      732.5419311523438,
+      162.75418090820312
+    ],
+    [
+      731.3080444335938,
+      141.99420166015625
+    ],
+    [
+      606.9619140625,
+      150.8223114013672
+    ],
+    [
+      612.1293334960938,
+      140.09657287597656
+    ],
+    [
+      624.3141479492188,
+      137.8728485107422
+    ],
+    [
+      637.0972290039062,
+      139.41326904296875
+    ],
+    [
+      649.1741943359375,
+      144.37026977539062
+    ],
+    [
+      674.5082397460938,
+      141.58963012695312
+    ],
+    [
+      686.665771484375,
+      135.42579650878906
+    ],
+    [
+      699.3403930664062,
+      131.88499450683594
+    ],
+    [
+      713.07763671875,
+      132.09625244140625
+    ],
+    [
+      722.265625,
+      139.96636962890625
+    ],
+    [
+      664.1063842773438,
+      152.39285278320312
+    ],
+    [
+      664.9857177734375,
+      164.46331787109375
+    ],
+    [
+      665.9688110351562,
+      176.72804260253906
+    ],
+    [
+      667.02001953125,
+      189.46160888671875
+    ],
+    [
+      652.8313598632812,
+      198.2416229248047
+    ],
+    [
+      660.4464111328125,
+      200.60894775390625
+    ],
+    [
+      668.8280029296875,
+      202.57850646972656
+    ],
+    [
+      676.4228515625,
+      198.7367706298828
+    ],
+    [
+      683.2892456054688,
+      195.272705078125
+    ],
+    [
+      622.1715698242188,
+      156.38536071777344
+    ],
+    [
+      628.63037109375,
+      152.11354064941406
+    ],
+    [
+      637.6458129882812,
+      151.3044891357422
+    ],
+    [
+      646.7947387695312,
+      156.96343994140625
+    ],
+    [
+      638.4136352539062,
+      159.05056762695312
+    ],
+    [
+      629.1373291015625,
+      159.88043212890625
+    ],
+    [
+      682.7733154296875,
+      153.40699768066406
+    ],
+    [
+      690.86669921875,
+      146.59896850585938
+    ],
+    [
+      699.5164794921875,
+      145.388916015625
+    ],
+    [
+      706.6287231445312,
+      148.29251098632812
+    ],
+    [
+      700.7232055664062,
+      152.92848205566406
+    ],
+    [
+      691.7893676757812,
+      153.8574676513672
+    ],
+    [
+      645.1038818359375,
+      224.3445587158203
+    ],
+    [
+      654.195068359375,
+      220.99534606933594
+    ],
+    [
+      662.908935546875,
+      218.37100219726562
+    ],
+    [
+      670.6885986328125,
+      219.8150634765625
+    ],
+    [
+      678.1165771484375,
+      216.47335815429688
+    ],
+    [
+      687.3059692382812,
+      216.499267578125
+    ],
+    [
+      696.8748168945312,
+      217.52813720703125
+    ],
+    [
+      689.280517578125,
+      227.93409729003906
+    ],
+    [
+      680.678955078125,
+      232.72230529785156
+    ],
+    [
+      672.6202392578125,
+      234.65435791015625
+    ],
+    [
+      664.6453247070312,
+      234.73846435546875
+    ],
+    [
+      654.8944702148438,
+      231.74502563476562
+    ],
+    [
+      648.9645385742188,
+      224.35208129882812
+    ],
+    [
+      663.4593505859375,
+      223.6993865966797
+    ],
+    [
+      671.156494140625,
+      223.9263458251953
+    ],
+    [
+      678.8868408203125,
+      221.74476623535156
+    ],
+    [
+      692.8862915039062,
+      218.53684997558594
+    ],
+    [
+      679.3396606445312,
+      223.0958251953125
+    ],
+    [
+      671.4866333007812,
+      225.4792938232422
+    ],
+    [
+      663.7506103515625,
+      225.19241333007812
+    ]
+  ]
+}
