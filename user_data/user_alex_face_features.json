@@ -1,0 +1,1194 @@
+{
+  "user_id": "alex",
+  "timestamp": "2026-03-30T16:31:07.126392",
+  "num_edges": 114,
+  "reference_edge": "39_4",
+  "edges": {
+    "44_45": {
+      "edge_id": 0,
+      "point1": 44,
+      "point2": 45,
+      "absolute_length_px": 8.472820737492093,
+      "relative_length": 8.472820737492093,
+      "is_reference": false
+    },
+    "13_54": {
+      "edge_id": 1,
+      "point1": 54,
+      "point2": 13,
+      "absolute_length_px": 29.14424939486475,
+      "relative_length": 29.14424939486475,
+      "is_reference": false
+    },
+    "8_9": {
+      "edge_id": 2,
+      "point1": 8,
+      "point2": 9,
+      "absolute_length_px": 17.059695578245215,
+      "relative_length": 17.059695578245215,
+      "is_reference": false
+    },
+    "40_41": {
+      "edge_id": 3,
+      "point1": 40,
+      "point2": 41,
+      "absolute_length_px": 10.85874023199968,
+      "relative_length": 10.85874023199968,
+      "is_reference": false
+    },
+    "20_38": {
+      "edge_id": 4,
+      "point1": 20,
+      "point2": 38,
+      "absolute_length_px": 22.36879879515766,
+      "relative_length": 22.36879879515766,
+      "is_reference": false
+    },
+    "23_43": {
+      "edge_id": 5,
+      "point1": 23,
+      "point2": 43,
+      "absolute_length_px": 22.274487192483857,
+      "relative_length": 22.274487192483857,
+      "is_reference": false
+    },
+    "4_40": {
+      "edge_id": 6,
+      "point1": 40,
+      "point2": 4,
+      "absolute_length_px": 82.25432620320284,
+      "relative_length": 82.25432620320284,
+      "is_reference": false
+    },
+    "48_59": {
+      "edge_id": 7,
+      "point1": 59,
+      "point2": 48,
+      "absolute_length_px": 14.05176112258923,
+      "relative_length": 14.05176112258923,
+      "is_reference": false
+    },
+    "30_39": {
+      "edge_id": 8,
+      "point1": 30,
+      "point2": 39,
+      "absolute_length_px": 45.47299234337215,
+      "relative_length": 45.47299234337215,
+      "is_reference": false
+    },
+    "18_19": {
+      "edge_id": 9,
+      "point1": 18,
+      "point2": 19,
+      "absolute_length_px": 15.412054483337458,
+      "relative_length": 15.412054483337458,
+      "is_reference": false
+    },
+    "0_36": {
+      "edge_id": 10,
+      "point1": 36,
+      "point2": 0,
+      "absolute_length_px": 34.15083088143786,
+      "relative_length": 34.15083088143786,
+      "is_reference": false
+    },
+    "24_44": {
+      "edge_id": 11,
+      "point1": 24,
+      "point2": 44,
+      "absolute_length_px": 24.4845976038739,
+      "relative_length": 24.4845976038739,
+      "is_reference": false
+    },
+    "18_37": {
+      "edge_id": 12,
+      "point1": 18,
+      "point2": 37,
+      "absolute_length_px": 26.658292710233177,
+      "relative_length": 26.658292710233177,
+      "is_reference": false
+    },
+    "14_15": {
+      "edge_id": 13,
+      "point1": 14,
+      "point2": 15,
+      "absolute_length_px": 19.47894141284094,
+      "relative_length": 19.47894141284094,
+      "is_reference": false
+    },
+    "27_47": {
+      "edge_id": 14,
+      "point1": 47,
+      "point2": 27,
+      "absolute_length_px": 27.175676753171153,
+      "relative_length": 27.175676753171153,
+      "is_reference": false
+    },
+    "9_10": {
+      "edge_id": 15,
+      "point1": 9,
+      "point2": 10,
+      "absolute_length_px": 17.300531463500466,
+      "relative_length": 17.300531463500466,
+      "is_reference": false
+    },
+    "31_49": {
+      "edge_id": 16,
+      "point1": 31,
+      "point2": 49,
+      "absolute_length_px": 20.837369603252558,
+      "relative_length": 20.837369603252558,
+      "is_reference": false
+    },
+    "13_46": {
+      "edge_id": 17,
+      "point1": 46,
+      "point2": 13,
+      "absolute_length_px": 53.982041474994475,
+      "relative_length": 53.982041474994475,
+      "is_reference": false
+    },
+    "15_16": {
+      "edge_id": 18,
+      "point1": 15,
+      "point2": 16,
+      "absolute_length_px": 18.57909383581279,
+      "relative_length": 18.57909383581279,
+      "is_reference": false
+    },
+    "16_26": {
+      "edge_id": 19,
+      "point1": 26,
+      "point2": 16,
+      "absolute_length_px": 13.376665252102264,
+      "relative_length": 13.376665252102264,
+      "is_reference": false
+    },
+    "42_43": {
+      "edge_id": 20,
+      "point1": 42,
+      "point2": 43,
+      "absolute_length_px": 11.512808527540667,
+      "relative_length": 11.512808527540667,
+      "is_reference": false
+    },
+    "2_36": {
+      "edge_id": 21,
+      "point1": 36,
+      "point2": 2,
+      "absolute_length_px": 49.67744707203174,
+      "relative_length": 49.67744707203174,
+      "is_reference": false
+    },
+    "25_45": {
+      "edge_id": 22,
+      "point1": 25,
+      "point2": 45,
+      "absolute_length_px": 25.811904739246373,
+      "relative_length": 25.811904739246373,
+      "is_reference": false
+    },
+    "27_40": {
+      "edge_id": 23,
+      "point1": 40,
+      "point2": 27,
+      "absolute_length_px": 33.92558195602781,
+      "relative_length": 33.92558195602781,
+      "is_reference": false
+    },
+    "38_39": {
+      "edge_id": 24,
+      "point1": 38,
+      "point2": 39,
+      "absolute_length_px": 10.841419409941622,
+      "relative_length": 10.841419409941622,
+      "is_reference": false
+    },
+    "48_49": {
+      "edge_id": 25,
+      "point1": 48,
+      "point2": 49,
+      "absolute_length_px": 12.819837808465593,
+      "relative_length": 12.819837808465593,
+      "is_reference": false
+    },
+    "27_42": {
+      "edge_id": 26,
+      "point1": 42,
+      "point2": 27,
+      "absolute_length_px": 16.726899268420702,
+      "relative_length": 16.726899268420702,
+      "is_reference": false
+    },
+    "34_53": {
+      "edge_id": 27,
+      "point1": 34,
+      "point2": 53,
+      "absolute_length_px": 19.062718137094897,
+      "relative_length": 19.062718137094897,
+      "is_reference": false
+    },
+    "0_17": {
+      "edge_id": 28,
+      "point1": 17,
+      "point2": 0,
+      "absolute_length_px": 20.817007136410005,
+      "relative_length": 20.817007136410005,
+      "is_reference": false
+    },
+    "16_45": {
+      "edge_id": 29,
+      "point1": 45,
+      "point2": 16,
+      "absolute_length_px": 14.138712958069553,
+      "relative_length": 14.138712958069553,
+      "is_reference": false
+    },
+    "13_47": {
+      "edge_id": 30,
+      "point1": 47,
+      "point2": 13,
+      "absolute_length_px": 57.217126093723174,
+      "relative_length": 57.217126093723174,
+      "is_reference": false
+    },
+    "12_13": {
+      "edge_id": 31,
+      "point1": 12,
+      "point2": 13,
+      "absolute_length_px": 17.99361989679667,
+      "relative_length": 17.99361989679667,
+      "is_reference": false
+    },
+    "22_23": {
+      "edge_id": 32,
+      "point1": 22,
+      "point2": 23,
+      "absolute_length_px": 14.070267988398783,
+      "relative_length": 14.070267988398783,
+      "is_reference": false
+    },
+    "3_41": {
+      "edge_id": 33,
+      "point1": 41,
+      "point2": 3,
+      "absolute_length_px": 65.24491680392761,
+      "relative_length": 65.24491680392761,
+      "is_reference": false
+    },
+    "49_50": {
+      "edge_id": 34,
+      "point1": 49,
+      "point2": 50,
+      "absolute_length_px": 11.792386660799611,
+      "relative_length": 11.792386660799611,
+      "is_reference": false
+    },
+    "22_27": {
+      "edge_id": 35,
+      "point1": 27,
+      "point2": 22,
+      "absolute_length_px": 22.714118765813755,
+      "relative_length": 22.714118765813755,
+      "is_reference": false
+    },
+    "13_14": {
+      "edge_id": 36,
+      "point1": 13,
+      "point2": 14,
+      "absolute_length_px": 18.649323578852886,
+      "relative_length": 18.649323578852886,
+      "is_reference": false
+    },
+    "45_46": {
+      "edge_id": 37,
+      "point1": 45,
+      "point2": 46,
+      "absolute_length_px": 8.173583049643652,
+      "relative_length": 8.173583049643652,
+      "is_reference": false
+    },
+    "55_56": {
+      "edge_id": 38,
+      "point1": 55,
+      "point2": 56,
+      "absolute_length_px": 8.780051783703238,
+      "relative_length": 8.780051783703238,
+      "is_reference": false
+    },
+    "50_51": {
+      "edge_id": 39,
+      "point1": 50,
+      "point2": 51,
+      "absolute_length_px": 8.30516542118603,
+      "relative_length": 8.30516542118603,
+      "is_reference": false
+    },
+    "12_54": {
+      "edge_id": 40,
+      "point1": 54,
+      "point2": 12,
+      "absolute_length_px": 20.931884475352597,
+      "relative_length": 20.931884475352597,
+      "is_reference": false
+    },
+    "51_52": {
+      "edge_id": 41,
+      "point1": 51,
+      "point2": 52,
+      "absolute_length_px": 8.228785781468371,
+      "relative_length": 8.228785781468371,
+      "is_reference": false
+    },
+    "46_47": {
+      "edge_id": 42,
+      "point1": 46,
+      "point2": 47,
+      "absolute_length_px": 10.536656878827493,
+      "relative_length": 10.536656878827493,
+      "is_reference": false
+    },
+    "23_24": {
+      "edge_id": 43,
+      "point1": 23,
+      "point2": 24,
+      "absolute_length_px": 13.322380525420735,
+      "relative_length": 13.322380525420735,
+      "is_reference": false
+    },
+    "35_53": {
+      "edge_id": 44,
+      "point1": 35,
+      "point2": 53,
+      "absolute_length_px": 20.488608873600672,
+      "relative_length": 20.488608873600672,
+      "is_reference": false
+    },
+    "19_20": {
+      "edge_id": 45,
+      "point1": 19,
+      "point2": 20,
+      "absolute_length_px": 15.638640413244318,
+      "relative_length": 15.638640413244318,
+      "is_reference": false
+    },
+    "24_25": {
+      "edge_id": 46,
+      "point1": 24,
+      "point2": 25,
+      "absolute_length_px": 12.874078347923398,
+      "relative_length": 12.874078347923398,
+      "is_reference": false
+    },
+    "56_57": {
+      "edge_id": 47,
+      "point1": 56,
+      "point2": 57,
+      "absolute_length_px": 8.380155575197023,
+      "relative_length": 8.380155575197023,
+      "is_reference": false
+    },
+    "19_38": {
+      "edge_id": 48,
+      "point1": 19,
+      "point2": 38,
+      "absolute_length_px": 26.994979488090056,
+      "relative_length": 26.994979488090056,
+      "is_reference": false
+    },
+    "20_21": {
+      "edge_id": 49,
+      "point1": 20,
+      "point2": 21,
+      "absolute_length_px": 15.337994161015262,
+      "relative_length": 15.337994161015262,
+      "is_reference": false
+    },
+    "52_53": {
+      "edge_id": 50,
+      "point1": 52,
+      "point2": 53,
+      "absolute_length_px": 8.961253106804396,
+      "relative_length": 8.961253106804396,
+      "is_reference": false
+    },
+    "32_50": {
+      "edge_id": 51,
+      "point1": 32,
+      "point2": 50,
+      "absolute_length_px": 15.418837186086442,
+      "relative_length": 15.418837186086442,
+      "is_reference": false
+    },
+    "57_58": {
+      "edge_id": 52,
+      "point1": 57,
+      "point2": 58,
+      "absolute_length_px": 8.782873061808939,
+      "relative_length": 8.782873061808939,
+      "is_reference": false
+    },
+    "23_44": {
+      "edge_id": 53,
+      "point1": 23,
+      "point2": 44,
+      "absolute_length_px": 24.154444748162184,
+      "relative_length": 24.154444748162184,
+      "is_reference": false
+    },
+    "53_54": {
+      "edge_id": 54,
+      "point1": 53,
+      "point2": 54,
+      "absolute_length_px": 8.093573900936557,
+      "relative_length": 8.093573900936557,
+      "is_reference": false
+    },
+    "15_46": {
+      "edge_id": 55,
+      "point1": 46,
+      "point2": 15,
+      "absolute_length_px": 24.818219315913524,
+      "relative_length": 24.818219315913524,
+      "is_reference": false
+    },
+    "25_26": {
+      "edge_id": 56,
+      "point1": 25,
+      "point2": 26,
+      "absolute_length_px": 12.878761581862873,
+      "relative_length": 12.878761581862873,
+      "is_reference": false
+    },
+    "27_39": {
+      "edge_id": 57,
+      "point1": 39,
+      "point2": 27,
+      "absolute_length_px": 23.944680239126843,
+      "relative_length": 23.944680239126843,
+      "is_reference": false
+    },
+    "7_58": {
+      "edge_id": 58,
+      "point1": 58,
+      "point2": 7,
+      "absolute_length_px": 37.410945630525745,
+      "relative_length": 37.410945630525745,
+      "is_reference": false
+    },
+    "6_59": {
+      "edge_id": 59,
+      "point1": 59,
+      "point2": 6,
+      "absolute_length_px": 35.31334480107467,
+      "relative_length": 35.31334480107467,
+      "is_reference": false
+    },
+    "31_32": {
+      "edge_id": 60,
+      "point1": 31,
+      "point2": 32,
+      "absolute_length_px": 9.257136995985816,
+      "relative_length": 9.257136995985816,
+      "is_reference": false
+    },
+    "17_18": {
+      "edge_id": 61,
+      "point1": 17,
+      "point2": 18,
+      "absolute_length_px": 14.5151484755955,
+      "relative_length": 14.5151484755955,
+      "is_reference": false
+    },
+    "27_28": {
+      "edge_id": 62,
+      "point1": 27,
+      "point2": 28,
+      "absolute_length_px": 14.04127768812594,
+      "relative_length": 14.04127768812594,
+      "is_reference": false
+    },
+    "8_57": {
+      "edge_id": 63,
+      "point1": 57,
+      "point2": 8,
+      "absolute_length_px": 36.921521790745544,
+      "relative_length": 36.921521790745544,
+      "is_reference": false
+    },
+    "5_48": {
+      "edge_id": 64,
+      "point1": 48,
+      "point2": 5,
+      "absolute_length_px": 33.596839956129664,
+      "relative_length": 33.596839956129664,
+      "is_reference": false
+    },
+    "54_55": {
+      "edge_id": 65,
+      "point1": 54,
+      "point2": 55,
+      "absolute_length_px": 10.99036773237532,
+      "relative_length": 10.99036773237532,
+      "is_reference": false
+    },
+    "30_33": {
+      "edge_id": 66,
+      "point1": 30,
+      "point2": 33,
+      "absolute_length_px": 13.171320613133068,
+      "relative_length": 13.171320613133068,
+      "is_reference": false
+    },
+    "34_52": {
+      "edge_id": 67,
+      "point1": 34,
+      "point2": 52,
+      "absolute_length_px": 14.785643364832664,
+      "relative_length": 14.785643364832664,
+      "is_reference": false
+    },
+    "64_65": {
+      "edge_id": 68,
+      "point1": 64,
+      "point2": 65,
+      "absolute_length_px": 11.33576545298868,
+      "relative_length": 11.33576545298868,
+      "is_reference": false
+    },
+    "30_42": {
+      "edge_id": 69,
+      "point1": 30,
+      "point2": 42,
+      "absolute_length_px": 40.34434731552984,
+      "relative_length": 40.34434731552984,
+      "is_reference": false
+    },
+    "5_6": {
+      "edge_id": 70,
+      "point1": 5,
+      "point2": 6,
+      "absolute_length_px": 20.314635889222195,
+      "relative_length": 20.314635889222195,
+      "is_reference": false
+    },
+    "60_61": {
+      "edge_id": 71,
+      "point1": 60,
+      "point2": 61,
+      "absolute_length_px": 18.059615421708113,
+      "relative_length": 18.059615421708113,
+      "is_reference": false
+    },
+    "10_55": {
+      "edge_id": 72,
+      "point1": 55,
+      "point2": 10,
+      "absolute_length_px": 28.70424979017543,
+      "relative_length": 28.70424979017543,
+      "is_reference": false
+    },
+    "1_2": {
+      "edge_id": 73,
+      "point1": 1,
+      "point2": 2,
+      "absolute_length_px": 21.355323208311773,
+      "relative_length": 21.355323208311773,
+      "is_reference": false
+    },
+    "21_27": {
+      "edge_id": 74,
+      "point1": 27,
+      "point2": 21,
+      "absolute_length_px": 21.790773039150967,
+      "relative_length": 21.790773039150967,
+      "is_reference": false
+    },
+    "28_29": {
+      "edge_id": 75,
+      "point1": 28,
+      "point2": 29,
+      "absolute_length_px": 13.941761265273655,
+      "relative_length": 13.941761265273655,
+      "is_reference": false
+    },
+    "42_47": {
+      "edge_id": 76,
+      "point1": 47,
+      "point2": 42,
+      "absolute_length_px": 10.451361499202566,
+      "relative_length": 10.451361499202566,
+      "is_reference": false
+    },
+    "10_57": {
+      "edge_id": 77,
+      "point1": 57,
+      "point2": 10,
+      "absolute_length_px": 33.7260110779014,
+      "relative_length": 33.7260110779014,
+      "is_reference": false
+    },
+    "11_54": {
+      "edge_id": 78,
+      "point1": 54,
+      "point2": 11,
+      "absolute_length_px": 23.787400813235458,
+      "relative_length": 23.787400813235458,
+      "is_reference": false
+    },
+    "60_67": {
+      "edge_id": 79,
+      "point1": 67,
+      "point2": 60,
+      "absolute_length_px": 18.479868733221,
+      "relative_length": 18.479868733221,
+      "is_reference": false
+    },
+    "29_30": {
+      "edge_id": 80,
+      "point1": 29,
+      "point2": 30,
+      "absolute_length_px": 14.50567131933708,
+      "relative_length": 14.50567131933708,
+      "is_reference": false
+    },
+    "61_62": {
+      "edge_id": 81,
+      "point1": 61,
+      "point2": 62,
+      "absolute_length_px": 8.413985066790321,
+      "relative_length": 8.413985066790321,
+      "is_reference": false
+    },
+    "2_3": {
+      "edge_id": 82,
+      "point1": 2,
+      "point2": 3,
+      "absolute_length_px": 21.451042048060458,
+      "relative_length": 21.451042048060458,
+      "is_reference": false
+    },
+    "20_39": {
+      "edge_id": 83,
+      "point1": 20,
+      "point2": 39,
+      "absolute_length_px": 28.316208238434935,
+      "relative_length": 28.316208238434935,
+      "is_reference": false
+    },
+    "31_48": {
+      "edge_id": 84,
+      "point1": 31,
+      "point2": 48,
+      "absolute_length_px": 28.25024153024092,
+      "relative_length": 28.25024153024092,
+      "is_reference": false
+    },
+    "62_63": {
+      "edge_id": 85,
+      "point1": 62,
+      "point2": 63,
+      "absolute_length_px": 8.014492076149386,
+      "relative_length": 8.014492076149386,
+      "is_reference": false
+    },
+    "19_37": {
+      "edge_id": 86,
+      "point1": 19,
+      "point2": 37,
+      "absolute_length_px": 24.43248953151833,
+      "relative_length": 24.43248953151833,
+      "is_reference": false
+    },
+    "3_4": {
+      "edge_id": 87,
+      "point1": 3,
+      "point2": 4,
+      "absolute_length_px": 20.1041484015536,
+      "relative_length": 20.1041484015536,
+      "is_reference": false
+    },
+    "58_59": {
+      "edge_id": 88,
+      "point1": 58,
+      "point2": 59,
+      "absolute_length_px": 12.060488509102571,
+      "relative_length": 12.060488509102571,
+      "is_reference": false
+    },
+    "1_36": {
+      "edge_id": 89,
+      "point1": 36,
+      "point2": 1,
+      "absolute_length_px": 37.424414114296034,
+      "relative_length": 37.424414114296034,
+      "is_reference": false
+    },
+    "32_49": {
+      "edge_id": 90,
+      "point1": 32,
+      "point2": 49,
+      "absolute_length_px": 21.112011133308737,
+      "relative_length": 21.112011133308737,
+      "is_reference": false
+    },
+    "35_54": {
+      "edge_id": 91,
+      "point1": 35,
+      "point2": 54,
+      "absolute_length_px": 24.889064783041515,
+      "relative_length": 24.889064783041515,
+      "is_reference": false
+    },
+    "36_37": {
+      "edge_id": 92,
+      "point1": 36,
+      "point2": 37,
+      "absolute_length_px": 9.898437820886564,
+      "relative_length": 9.898437820886564,
+      "is_reference": false
+    },
+    "14_46": {
+      "edge_id": 93,
+      "point1": 46,
+      "point2": 14,
+      "absolute_length_px": 37.65413571434651,
+      "relative_length": 37.65413571434651,
+      "is_reference": false
+    },
+    "63_64": {
+      "edge_id": 94,
+      "point1": 63,
+      "point2": 64,
+      "absolute_length_px": 11.56357879189172,
+      "relative_length": 11.56357879189172,
+      "is_reference": false
+    },
+    "36_41": {
+      "edge_id": 95,
+      "point1": 41,
+      "point2": 36,
+      "absolute_length_px": 9.519962393577526,
+      "relative_length": 9.519962393577526,
+      "is_reference": false
+    },
+    "32_33": {
+      "edge_id": 96,
+      "point1": 32,
+      "point2": 33,
+      "absolute_length_px": 9.375830798937606,
+      "relative_length": 9.375830798937606,
+      "is_reference": false
+    },
+    "4_5": {
+      "edge_id": 97,
+      "point1": 4,
+      "point2": 5,
+      "absolute_length_px": 21.081827777336894,
+      "relative_length": 21.081827777336894,
+      "is_reference": false
+    },
+    "3_36": {
+      "edge_id": 98,
+      "point1": 36,
+      "point2": 3,
+      "absolute_length_px": 65.78312512898005,
+      "relative_length": 65.78312512898005,
+      "is_reference": false
+    },
+    "15_45": {
+      "edge_id": 99,
+      "point1": 45,
+      "point2": 15,
+      "absolute_length_px": 23.116076364440154,
+      "relative_length": 23.116076364440154,
+      "is_reference": false
+    },
+    "0_1": {
+      "edge_id": 100,
+      "point1": 0,
+      "point2": 1,
+      "absolute_length_px": 21.53585448690868,
+      "relative_length": 21.53585448690868,
+      "is_reference": false
+    },
+    "10_11": {
+      "edge_id": 101,
+      "point1": 10,
+      "point2": 11,
+      "absolute_length_px": 18.051246025067876,
+      "relative_length": 18.051246025067876,
+      "is_reference": false
+    },
+    "65_66": {
+      "edge_id": 102,
+      "point1": 65,
+      "point2": 66,
+      "absolute_length_px": 8.056822997832299,
+      "relative_length": 8.056822997832299,
+      "is_reference": false
+    },
+    "4_48": {
+      "edge_id": 103,
+      "point1": 48,
+      "point2": 4,
+      "absolute_length_px": 37.80942112994992,
+      "relative_length": 37.80942112994992,
+      "is_reference": false
+    },
+    "37_38": {
+      "edge_id": 104,
+      "point1": 37,
+      "point2": 38,
+      "absolute_length_px": 10.555816387161258,
+      "relative_length": 10.555816387161258,
+      "is_reference": false
+    },
+    "6_7": {
+      "edge_id": 105,
+      "point1": 6,
+      "point2": 7,
+      "absolute_length_px": 20.138133703523845,
+      "relative_length": 20.138133703523845,
+      "is_reference": false
+    },
+    "33_34": {
+      "edge_id": 106,
+      "point1": 33,
+      "point2": 34,
+      "absolute_length_px": 8.191568798752217,
+      "relative_length": 8.191568798752217,
+      "is_reference": false
+    },
+    "43_44": {
+      "edge_id": 107,
+      "point1": 43,
+      "point2": 44,
+      "absolute_length_px": 10.440533139866375,
+      "relative_length": 10.440533139866375,
+      "is_reference": false
+    },
+    "39_40": {
+      "edge_id": 108,
+      "point1": 39,
+      "point2": 40,
+      "absolute_length_px": 9.998613479689103,
+      "relative_length": 9.998613479689103,
+      "is_reference": false
+    },
+    "34_35": {
+      "edge_id": 109,
+      "point1": 34,
+      "point2": 35,
+      "absolute_length_px": 7.895143750584419,
+      "relative_length": 7.895143750584419,
+      "is_reference": false
+    },
+    "11_12": {
+      "edge_id": 110,
+      "point1": 11,
+      "point2": 12,
+      "absolute_length_px": 18.570801863683982,
+      "relative_length": 18.570801863683982,
+      "is_reference": false
+    },
+    "66_67": {
+      "edge_id": 111,
+      "point1": 66,
+      "point2": 67,
+      "absolute_length_px": 8.327088928826466,
+      "relative_length": 8.327088928826466,
+      "is_reference": false
+    },
+    "9_57": {
+      "edge_id": 112,
+      "point1": 57,
+      "point2": 9,
+      "absolute_length_px": 35.169828506416124,
+      "relative_length": 35.169828506416124,
+      "is_reference": false
+    },
+    "7_8": {
+      "edge_id": 113,
+      "point1": 7,
+      "point2": 8,
+      "absolute_length_px": 18.968756793406257,
+      "relative_length": 18.968756793406257,
+      "is_reference": false
+    }
+  },
+  "landmarks": [
+    [
+      277.2742004394531,
+      229.90269470214844
+    ],
+    [
+      278.2088317871094,
+      251.4182586669922
+    ],
+    [
+      280.31842041015625,
+      272.66912841796875
+    ],
+    [
+      284.2320861816406,
+      293.7601318359375
+    ],
+    [
+      292.5375061035156,
+      312.0685119628906
+    ],
+    [
+      305.4197998046875,
+      328.75653076171875
+    ],
+    [
+      320.81170654296875,
+      342.0144958496094
+    ],
+    [
+      338.357421875,
+      351.8984375
+    ],
+    [
+      357.0581359863281,
+      355.0760192871094
+    ],
+    [
+      373.72772216796875,
+      351.4486083984375
+    ],
+    [
+      387.1161193847656,
+      340.491455078125
+    ],
+    [
+      397.9514465332031,
+      326.05389404296875
+    ],
+    [
+      406.2276916503906,
+      309.42926025390625
+    ],
+    [
+      411.4622497558594,
+      292.2138671875
+    ],
+    [
+      415.15277099609375,
+      273.933349609375
+    ],
+    [
+      419.4119873046875,
+      254.92576599121094
+    ],
+    [
+      421.17694091796875,
+      236.43069458007812
+    ],
+    [
+      294.4032897949219,
+      218.07298278808594
+    ],
+    [
+      304.9693603515625,
+      208.12071228027344
+    ],
+    [
+      320.15350341796875,
+      205.4800262451172
+    ],
+    [
+      335.52215576171875,
+      208.37339782714844
+    ],
+    [
+      349.2204284667969,
+      215.27349853515625
+    ],
+    [
+      377.6669616699219,
+      214.22361755371094
+    ],
+    [
+      390.60870361328125,
+      208.70240783691406
+    ],
+    [
+      403.8067626953125,
+      206.88662719726562
+    ],
+    [
+      415.95819091796875,
+      211.1392364501953
+    ],
+    [
+      420.8363952636719,
+      223.05836486816406
+    ],
+    [
+      363.3529357910156,
+      231.8599395751953
+    ],
+    [
+      363.7198181152344,
+      245.89642333984375
+    ],
+    [
+      364.2161865234375,
+      259.829345703125
+    ],
+    [
+      364.8698425292969,
+      274.3202819824219
+    ],
+    [
+      344.9566650390625,
+      281.79852294921875
+    ],
+    [
+      353.7278747558594,
+      284.7583312988281
+    ],
+    [
+      362.74713134765625,
+      287.3194274902344
+    ],
+    [
+      370.61358642578125,
+      285.0345458984375
+    ],
+    [
+      377.9195556640625,
+      282.0418701171875
+    ],
+    [
+      311.206298828125,
+      233.76170349121094
+    ],
+    [
+      320.3254089355469,
+      229.9119110107422
+    ],
+    [
+      330.87567138671875,
+      230.25428771972656
+    ],
+    [
+      339.83477783203125,
+      236.35926818847656
+    ],
+    [
+      330.1719665527344,
+      238.92877197265625
+    ],
+    [
+      319.314697265625,
+      238.7500457763672
+    ],
+    [
+      379.37249755859375,
+      236.67271423339844
+    ],
+    [
+      389.3575134277344,
+      230.9417266845703
+    ],
+    [
+      399.7975769042969,
+      231.04075622558594
+    ],
+    [
+      407.0776672363281,
+      235.37538146972656
+    ],
+    [
+      399.9995422363281,
+      239.46287536621094
+    ],
+    [
+      389.4631042480469,
+      239.39495849609375
+    ],
+    [
+      329.79571533203125,
+      305.63592529296875
+    ],
+    [
+      342.2145690917969,
+      302.4546813964844
+    ],
+    [
+      353.784912109375,
+      300.17706298828125
+    ],
+    [
+      361.8156433105469,
+      302.2944030761719
+    ],
+    [
+      369.65374755859375,
+      299.78900146484375
+    ],
+    [
+      378.1859130859375,
+      302.52874755859375
+    ],
+    [
+      385.6294860839844,
+      305.7066650390625
+    ],
+    [
+      377.7426452636719,
+      313.3608093261719
+    ],
+    [
+      369.90838623046875,
+      317.3248596191406
+    ],
+    [
+      361.60211181640625,
+      318.4351806640625
+    ],
+    [
+      352.8780517578125,
+      317.42047119140625
+    ],
+    [
+      341.507080078125,
+      313.4009704589844
+    ],
+    [
+      335.1147155761719,
+      306.3406982421875
+    ],
+    [
+      353.1641540527344,
+      306.9468994140625
+    ],
+    [
+      361.5508117675781,
+      307.6244812011719
+    ],
+    [
+      369.5050964355469,
+      306.6439514160156
+    ],
+    [
+      381.0673828125,
+      306.4710693359375
+    ],
+    [
+      369.7593994140625,
+      307.26422119140625
+    ],
+    [
+      361.810302734375,
+      308.57733154296875
+    ],
+    [
+      353.56231689453125,
+      307.4322814941406
+    ]
+  ]
+}

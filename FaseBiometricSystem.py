@@ -5,7 +5,9 @@ import json
 import os
 import sys
 from datetime import datetime
-
+import re
+from pathlib import Path
+from PIL import Image
 
 class FaceBiometricSystem:
     """Биометрическая система аутентификации по лицу"""
@@ -301,6 +303,23 @@ class FaceBiometricSystem:
 
         return landmarks, (new_x, new_y, new_w, new_h)
 
+    def _load_image_pil(self, image_path):
+        """
+        Загрузка изображения через PIL (лучше работает с путями)
+        """
+        try:
+            # PIL лучше обрабатывает различные пути и кодировки
+            img = Image.open(image_path)
+            # Конвертируем в формат BGR для совместимости с OpenCV
+            img = img.convert('RGB')
+            img_np = np.array(img)
+            # Конвертируем RGB в BGR (так как OpenCV использует BGR)
+            img_bgr = cv2.cvtColor(img_np, cv2.COLOR_RGB2BGR)
+            return img_bgr
+        except Exception as e:
+            print(f"Ошибка загрузки изображения через PIL: {e}")
+            return None
+
     def register_user(self, username, image_source="camera", image_path=None):
         """
         Регистрация нового пользователя
@@ -353,7 +372,11 @@ class FaceBiometricSystem:
                 return False
 
             print(f"📁 Загрузка изображения из файла: {image_path}")
-            image = cv2.imread(image_path)
+            # image_path = re.sub(r"\\", "/", image_path)
+            # image_path = re.sub(r"/", '\', image_path)
+            # image_path = Path(image_path)
+            normalized_path = str(Path(image_path).resolve())
+            image = self._load_image_pil(normalized_path)#cv2.imread(normalized_path)
 
             if image is None:
                 print("❌ Ошибка: Не удалось получить изображение")
@@ -465,7 +488,8 @@ class FaceBiometricSystem:
                 return {'authenticated': False, 'error': 'File not found'}
 
             print(f"📁 Загрузка изображения из файла: {image_path}")
-            image = cv2.imread(image_path)
+            normalized_path = str(Path(image_path).resolve())
+            image = self._load_image_pil(normalized_path)#cv2.imread(image_path)
 
         if image is None:
             print("❌ Ошибка: Не удалось получить изображение")
