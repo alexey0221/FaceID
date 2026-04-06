@@ -24,7 +24,7 @@ class FaceBiometricSystem:
         self.models_dir = models_dir
         self.face_cascade = None
         self.facemark = None
-        self.tolerance = 0.05  # Порог ошибки по умолчанию (5%)
+        self.tolerance = 0.1  # Порог ошибки по умолчанию (10%)
 
         # Создаем директории если их нет
         os.makedirs(data_dir, exist_ok=True)
@@ -113,7 +113,7 @@ class FaceBiometricSystem:
 
         # Горизонтальная линия носа (ноздри 31 и 33 к центру 32)
         connections.extend([
-            (31, 32), (32, 33)
+            (31, 32), (32, 33), (33, 34), (34, 35),
         ])
 
         # ==================== 4. ГЛАЗА ====================
@@ -133,85 +133,36 @@ class FaceBiometricSystem:
             connections.append((i, i + 1))
         connections.append((59, 48))  # Замыкаем внешний контур
 
-        # Внутренний контур губ (60-67)
-        for i in range(60, 67):
-            connections.append((i, i + 1))
-        connections.append((67, 60))  # Замыкаем внутренний контур
-
         # ==================== 6. СВЯЗИ: ВНУТРЕННИЕ УГЛЫ ГЛАЗ К ПЕРЕНОСИЦЕ ====================
         connections.extend([
             (39, 27),  # Левый глаз (внутренний верхний) к переносице
-            (40, 27),  # Левый глаз (внутренний нижний) к переносице
             (42, 27),  # Правый глаз (внутренний верхний) к переносице
-            (47, 27),  # Правый глаз (внутренний нижний) к переносице
-            (33, 34),
-            (34, 35),
         ])
 
         # ==================== 7. СВЯЗИ: ВНЕШНИЕ УГЛЫ ГЛАЗ К КОНТУРУ ЛИЦА ====================
         connections.extend([
             (36, 0),  # Левый глаз (внешний угол) к левой верхней точке контура
-            (36, 1),  # Левый глаз (внешний угол) к левой верхней точке контура
-            (36, 2),  # Левый глаз (внешний угол) к левой верхней точке контура
-            (36, 3),  # Левый глаз (внешний угол) к левой верхней точке контура
-            (41, 3),  # Левый глаз (внешний угол) к левой верхней точке контура
-            (40, 4),  # Левый глаз (нижний внешний) к левой средней точке контура
             (45, 16),  # Правый глаз (верхний внешний) к правой верхней точке контура
-            (45, 15),  # Правый глаз (верхний внешний) к правой верхней точке контура
-            (46, 15),  # Правый глаз (нижний внешний) к правой средней точке контура
-            (46, 14),  # Правый глаз (нижний внешний) к правой средней точке контура
-            (46, 13),  # Правый глаз (нижний внешний) к правой средней точке контура
-        ])
-
-        # ==================== 8. СВЯЗИ: БРОВИ К ВЕРХНИМ ТОЧКАМ ГЛАЗ ====================
-        connections.extend([
-            (18, 37),  # Левая бровь (внешняя середина) к левому глазу
-            (19, 38),  # Левая бровь (центр) к центру левого глаза
-            (19, 37),  # Левая бровь (центр) к центру левого глаза
-            (20, 38),  # Левая бровь (внутренняя середина) к внутреннему углу левого глаза
-            (20, 39),  # Левая бровь (внутренняя середина) к внутреннему углу левого глаза
-
-            (23, 44),  # Правая бровь (внутренняя середина) к центру правого глаза
-            (23, 43),  # Правая бровь (центр) к внутреннему углу правого глаза
-            (24, 44),  # Правая бровь (центр) к внутреннему углу правого глаза
-            (25, 45),  # Правая бровь (внешняя середина) к внешнему углу правого глаза
-            (26, 16),  # Правая бровь к контору лица
         ])
 
         # ==================== 9. СВЯЗИ: НОЗДРИ К КОНТУРУ ЛИЦА ====================
         connections.extend([
             (31, 48),
-            (31, 49),
-            (32, 49),
-            (32, 50),
-            (34, 53),
-            (34, 52),
-            (35, 53),
             (35, 54),
-            (59, 6),  # Левая ноздря к левой средней точке контура
-            (55, 10),  # Правая ноздря к правой средней точке контура
         ])
 
         # ==================== 10. СВЯЗИ: УГОЛКИ ГУБ К КОНТУРУ ЛИЦА ====================
         connections.extend([
             (48, 4),  # Левый угол рта к нижней левой точке контура
-            (48, 5),  # Левый угол рта к нижней левой точке контура
-            (58, 7),  # Левый угол рта к нижней левой точке контура
-            (54, 11),  # Правый угол рта к нижней правой точке контура
             (54, 12),  # Правый угол рта к нижней правой точке контура
-            (54, 13),  # Правый угол рта к нижней правой точке контура
-            (57, 10),  # Центр нижней губы к подбородку
             (57, 8),  # Центр нижней губы к подбородку
-            (57, 9),  # Центр нижней губы к подбородку
         ])
 
         # ==================== ДОПОЛНИТЕЛЬНЫЕ СВЯЗИ ДЛЯ УЛУЧШЕНИЯ ====================
         # Связи бровей с контуром лица
         connections.extend([
             (17, 0),  # Левая бровь (внешний край) к контуру
-            # (21, 4),  # Левая бровь (внутренний край) к контуру
-            (47, 13),  # Правая бровь (внутренний край) к контуру
-            # (26, 12),  # Правая бровь (внешний край) к контуру
+            (26, 16),
         ])
 
         # Связи носа с бровями
@@ -219,10 +170,14 @@ class FaceBiometricSystem:
             (27, 21),  # Переносица к левой брови
             (27, 22),  # Переносица к правой брови
         ])
-        # Кончик носа и уголки глаз
+
         connections.extend([
-            (30, 39),
-            (30, 42),
+            (30, 0),
+            (16,30),
+            (35, 14),
+            (31, 2),
+            (19, 37),
+            (24, 44),
         ])
 
         # Удаляем дубликаты
@@ -242,18 +197,43 @@ class FaceBiometricSystem:
 
         return edges #graph,
 
-    def _extract_edge_features(self, landmarks, edges, reference_edge=(39, 4)):
-        """Извлекает характеристики ребер"""
-        # Находим длину эталонного ребра
-        ref_length = None
-        for i, j, dist in edges:
-            if (i == reference_edge[0] and j == reference_edge[1]) or \
-                    (i == reference_edge[1] and j == reference_edge[0]):
-                ref_length = dist
-                break
+    def _extract_edge_features(self, landmarks, edges, reference_edge=None):#(39, 4)):
+        """
+        Извлекает характеристики ребер
 
-        if ref_length is None:
-            ref_length = 1.0
+        Args:
+            landmarks: точки лица
+            edges: список ребер
+            reference_edge: эталонное ребро (если None - используется самое длинное)
+        """
+        # Если эталонное ребро не указано, находим самое длинное
+        if reference_edge is None:
+            max_length = 0
+            reference_edge = None
+
+            for i, j, dist in edges:
+                if dist > max_length:
+                    max_length = dist
+                    reference_edge = (i, j)
+
+            if reference_edge is None:
+                ref_length = 1.0
+            else:
+                ref_length = max_length
+
+            print(f"Выбрано эталонное ребро: {reference_edge} (длина: {ref_length:.2f} px)")
+        else:
+            # Находим длину указанного эталонного ребра
+            ref_length = None
+            for i, j, dist in edges:
+                if (i == reference_edge[0] and j == reference_edge[1]) or \
+                        (i == reference_edge[1] and j == reference_edge[0]):
+                    ref_length = dist
+                    break
+
+            if ref_length is None:
+                print(f"⚠️ Предупреждение: эталонное ребро {reference_edge} не найдено, используется первое ребро")
+                ref_length = edges[0][2] if edges else 1.0
 
         # Создаем словарь с данными
         edge_features = {}
@@ -272,7 +252,7 @@ class FaceBiometricSystem:
                                 (i == reference_edge[1] and j == reference_edge[0])
             }
 
-        return edge_features, ref_length
+        return edge_features, ref_length, reference_edge
 
     def _process_face(self, image):
         """Обрабатывает изображение и возвращает точки лица"""
@@ -400,7 +380,7 @@ class FaceBiometricSystem:
             return False
 
         # Извлекаем характеристики
-        edge_features, ref_length = self._extract_edge_features(landmarks, edges)
+        edge_features, ref_length, reference_edge = self._extract_edge_features(landmarks, edges)
 
         print(f"✅ Построен граф из {len(edges)} ребер")
         print(f"📏 Длина эталонного ребра: {ref_length:.2f} px")
@@ -410,7 +390,7 @@ class FaceBiometricSystem:
             'user_id': username,
             'timestamp': datetime.now().isoformat(),
             'num_edges': len(edge_features),
-            'reference_edge': '39_4',
+            'reference_edge': reference_edge,
             'edges': edge_features,
             'landmarks': landmarks
         }
@@ -424,7 +404,7 @@ class FaceBiometricSystem:
 
         return True
 
-    def authenticate_user(self, username, image_source="camera", image_path=None):
+    def authenticate_user(self, username, image_source="camera", image_path=None, show_resalt = True):
         """
         Аутентификация пользователя
 
@@ -436,31 +416,31 @@ class FaceBiometricSystem:
         Returns:
             dict: результаты аутентификации
         """
-        print(f"\n🔐 Аутентификация пользователя: {username}")
+        print(f"\nАутентификация пользователя: {username}")
         print("-" * 50)
 
         # Загружаем данные пользователя
         user_file = os.path.join(self.data_dir, f'user_{username}_face_features.json')
 
         if not os.path.exists(user_file):
-            print(f"❌ Ошибка: Пользователь {username} не найден в системе")
+            print(f"Ошибка: Пользователь {username} не найден в системе")
             return {'authenticated': False, 'error': 'User not found'}
 
         with open(user_file, 'r', encoding='utf-8') as f:
             user_data = json.load(f)
 
-        print(f"📅 Дата регистрации: {user_data['timestamp']}")
-        print(f"📊 Количество эталонных ребер: {user_data['num_edges']}")
+        print(f"Дата регистрации: {user_data['timestamp']}")
+        print(f"Количество эталонных ребер: {user_data['num_edges']}")
 
         # Получаем изображение
         image = None
 
         if image_source == "camera":
-            print("📸 Запуск камеры для аутентификации...")
+            print("Запуск камеры для аутентификации...")
             cap = cv2.VideoCapture(0)
 
             if not cap.isOpened():
-                print("❌ Ошибка: Не удалось открыть камеру")
+                print("Ошибка: Не удалось открыть камеру")
                 return {'authenticated': False, 'error': 'Camera error'}
 
             print("Нажмите 'SPACE' для захвата изображения, 'ESC' для выхода")
@@ -484,41 +464,41 @@ class FaceBiometricSystem:
 
         elif image_source == "file":
             if not image_path or not os.path.exists(image_path):
-                print(f"❌ Ошибка: Файл {image_path} не найден")
+                print(f"Ошибка: Файл {image_path} не найден")
                 return {'authenticated': False, 'error': 'File not found'}
 
-            print(f"📁 Загрузка изображения из файла: {image_path}")
+            print(f"Загрузка изображения из файла: {image_path}")
             normalized_path = str(Path(image_path).resolve())
             image = self._load_image_pil(normalized_path)#cv2.imread(image_path)
 
         if image is None:
-            print("❌ Ошибка: Не удалось получить изображение")
+            print("Ошибка: Не удалось получить изображение")
             return {'authenticated': False, 'error': 'No image'}
 
         # Обрабатываем лицо
-        print("🔍 Обработка изображения...")
+        print("Обработка изображения...")
         landmarks, bbox = self._process_face(image)
 
         if landmarks is None or len(landmarks) < 68:
-            print("❌ Ошибка: Не удалось обнаружить лицо или недостаточно точек")
+            print("Ошибка: Не удалось обнаружить лицо или недостаточно точек")
             return {'authenticated': False, 'error': 'Face not detected'}
 
         # Строим граф
         edges = self._build_custom_face_graph(landmarks)
 
         if not edges:
-            print("❌ Ошибка: Не удалось построить граф лица")
+            print("Ошибка: Не удалось построить граф лица")
             return {'authenticated': False, 'error': 'Graph build failed'}
 
         # Извлекаем характеристики
-        current_features, _ = self._extract_edge_features(landmarks, edges)
+        current_features, _, reference_edge = self._extract_edge_features(landmarks, edges)
 
         # Сравниваем с эталоном
         stored_edges = user_data['edges']
         common_edges = set(current_features.keys()) & set(stored_edges.keys())
 
         if len(common_edges) == 0:
-            print("❌ Нет общих ребер для сравнения")
+            print("Нет общих ребер для сравнения")
             return {'authenticated': False, 'error': 'No common edges'}
 
         # Вычисляем ошибки
@@ -532,7 +512,7 @@ class FaceBiometricSystem:
         max_error = max(errors)
         avg_error = np.mean(errors)
         similarity = 1 - min(avg_error / self.tolerance, 1)
-        authenticated = avg_error < self.tolerance
+        authenticated = avg_error < self.tolerance #max_error < self.tolerance #
 
         # Визуализация
         img_result = image.copy()
@@ -566,11 +546,11 @@ class FaceBiometricSystem:
         print("=" * 60)
 
         if authenticated:
-            print(f"\n✅ Аутентификация: УСПЕШНО")
+            print(f"\nАутентификация: УСПЕШНО")
         else:
-            print(f"\n❌ Аутентификация: НЕУСПЕШНО")
+            print(f"\nАутентификация: НЕУСПЕШНО")
 
-        print(f"\n📊 Детальная статистика:")
+        print(f"\nДетальная статистика:")
         print(f"  • Максимальная ошибка: {max_error:.4f}")
         print(f"  • Средняя ошибка: {avg_error:.4f}")
         print(f"  • Порог: {self.tolerance:.4f}")
@@ -579,9 +559,9 @@ class FaceBiometricSystem:
 
         print("\n" + "=" * 60)
         if authenticated:
-            print("✅ ДОСТУП РАЗРЕШЕН")
+            print("ДОСТУП РАЗРЕШЕН")
         else:
-            print("❌ ДОСТУП ЗАПРЕЩЕН")
+            print("ДОСТУП ЗАПРЕЩЕН")
         print("=" * 60)
 
         # Сохраняем результат
@@ -591,11 +571,11 @@ class FaceBiometricSystem:
             output_path = f'auth_result_{username}.jpg'
 
         cv2.imwrite(output_path, img_result)
-        print(f"\n📸 Результат сохранен в: {output_path}")
-
-        cv2.imshow('Authentication Result', img_result)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+        print(f"\nРезультат сохранен в: {output_path}")
+        if show_resalt:
+            cv2.imshow('Authentication Result', img_result)
+            cv2.waitKey(0)
+            cv2.destroyAllWindows()
 
         return {
             'authenticated': authenticated,
